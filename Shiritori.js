@@ -1,4 +1,4 @@
-class Shiritori{
+class Shiritory{
     constructor(){
           this.words = [];
           this.game_over = false;
@@ -21,3 +21,15 @@ class Shiritori{
         
     }
 }
+
+myShiritori = new Shiritory();
+console.log(myShiritori.play("apple")); 
+console.log(myShiritori.play("ear")); // ["apple", "ear"]
+console.log(myShiritori.play("rhino")); // ["apple", "ear", "rhino"]
+console.log(myShiritori.play("corn"));; // "game over"
+console.log(myShiritori.words); // ["apple", "ear", "rhino"]
+console.log(myShiritori.restart());
+console.log(myShiritori.words);
+console.log(myShiritori.play("hostess")); // ["hostess"]
+myShiritori.play("stash"); // ["hostess", "stash"]
+myShiritori.play("hostess"); // "game over"
