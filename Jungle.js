@@ -83,18 +83,18 @@ class Snake extends Animal {
   }
 }
 class Fish extends Food {
-  constructor(name, energy) {
-    super(name, energy);
+  constructor() {
+    super();
   }
 }
 class Grain extends Food {
-  constructor(name, energy) {
-    super(name, energy);
+  constructor() {
+    super();
   }
 }
 class Meat extends Food {
-  constructor(name, energy) {
-    super(name, energy);
+  constructor() {
+    super();
   }
 }
 
